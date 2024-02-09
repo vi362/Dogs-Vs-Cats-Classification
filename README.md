@@ -7,9 +7,12 @@ Data Collection: Obtain a dataset of images containing both dogs and cats. This 
 
 Data Preprocessing: Before feeding the images into a machine learning model, they need to be preprocessed. This includes tasks such as resizing images to a consistent size, normalizing pixel values, and possibly augmenting the data to increase the diversity of the training set.
 
-Feature Extraction: Deep learning models typically require a large amount of data and computational resources to train from scratch. 
+Feature Extraction: Deep learning models typically require a large amount of data and computational resources to train from scratch.
+
 Model Training: Split the dataset into training and validation sets. Then, fine-tune the pre-trained model on the training data and evaluate its performance on the validation set.
+
 Model Evaluation: Once the model is trained and tuned, evaluate its performance on a separate test set to assess its real-world performance. Ensure that the model generalizes well to unseen data.
+
 Deployment: Once satisfied with the model's performance, deploy it for inference on new images. This could involve integrating it into a web application, mobile app, or any other platform where it can be used to classify images of dogs and cats.
 
 Monitoring and Maintenance: Continuously monitor the model's performance in production and update it as necessary. Over time, retraining the model with new data may be required to ensure its accuracy doesn't degrade.
